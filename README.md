@@ -6,7 +6,7 @@
   </strong>
   <p>
     Learn everything you need to be effective with the fundamental building
-    block of React applications. When you’re finished, you’ll be prepared to
+    block of React applications. When you're finished, you'll be prepared to
     create React components to build excellent experiences for your app's users.
   </p>
 
@@ -25,6 +25,7 @@
 [![GPL 3.0 License][license-badge]][license]
 [![All Contributors][all-contributors-badge]](#contributors-)
 [![Code of Conduct][coc-badge]][coc]
+[![Gitpod ready-to-code][gitpod-badge]](https://gitpod.io/#https://github.com/kentcdodds/react-fundamentals)
 <!-- prettier-ignore-end -->
 
 ## Prerequisites
@@ -35,6 +36,23 @@
   ([Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
   (recommended),
   [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/))
+
+> NOTE: The EpicReact.dev videos were recorded with React version ^16.13 and all
+> material in this repo has been updated to React version ^18. Differences are
+> minor and any relevant differences are noted in the instructions.
+
+## Quick start
+
+It's recommended you run everything in the same environment you work in every
+day, but if you don't want to set up the repository locally, you can get started
+in one click with [Gitpod](https://gitpod.io),
+[CodeSandbox](https://codesandbox.io/s/github/kentcdodds/react-fundamentals), or
+by following the [video demo](https://www.youtube.com/watch?v=gCoVJm3hGk4)
+instructions for [GitHub Codespaces](https://github.com/features/codespaces).
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/kentcdodds/react-fundamentals)
+
+For a local development environment, follow the instructions below
 
 ## System Requirements
 
@@ -97,12 +115,6 @@ setup the project with the following command:
 ```shell
 docker-compose up
 ```
-
-It's recommended you run everything locally in the same environment you work in
-every day, but if you're having issues getting things set up, you can also set
-this up using [GitHub Codespaces](https://github.com/features/codespaces)
-([video demo](https://www.youtube.com/watch?v=gCoVJm3hGk4)) or
-[Codesandbox](https://codesandbox.io/s/github/kentcdodds/react-fundamentals).
 
 ## Running the app
 
@@ -273,6 +285,7 @@ Thank you! https://kcd.im/rf-ws-feedback
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [license]: https://github.com/kentcdodds/react-fundamentals/blob/main/LICENSE
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[gitpod-badge]: https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod
 [coc]: https://github.com/kentcdodds/react-fundamentals/blob/main/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
